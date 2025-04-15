@@ -11,10 +11,6 @@ namespace StudyProject_ApplicationServices.Context
 {
     public class PortfolioContext : DbContext
     {
-        public PortfolioContext()
-        {
-        }
-
         public PortfolioContext(DbContextOptions<PortfolioContext> options) : base(options)
         {
 

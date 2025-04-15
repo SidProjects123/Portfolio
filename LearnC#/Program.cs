@@ -2,12 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using StudyProject_ApplicationServices.Context;
 using StudyProject_Model.DomainModel;
 
-namespace LearnC_
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
+
+    
+       
             var builder = WebApplication.CreateBuilder(args);
 
             //to Add dbContext 
@@ -38,6 +35,3 @@ namespace LearnC_
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
-        }
-    }
-}
